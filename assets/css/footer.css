@@ -1,0 +1,7 @@
+.footer{
+    background-color: var(--preto);
+    color: var(--amarelo-principal);
+    font-family: 'Coda', cursive;
+    padding: .55rem;
+    text-align: center;
+}

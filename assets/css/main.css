@@ -1,0 +1,108 @@
+:root{
+    --amarelo-banner: #fecb3e;
+    --amarelo-principal: #ffcc00;
+    --branco: whitesmoke;
+    --cinza: #928886 ;
+    --letra-conteudo: #e9e4de;
+    --preto: black;
+}
+
+.main{
+    background-color: var(--cinza);    
+    display: flex;
+    font-family: 'Coda', cursive;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.main__content{
+    display: flex;
+}
+
+.animals{
+    width:70%;
+}
+
+.animals__title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.animals__content{
+    align-items: center;
+    border: solid var(--preto) 2.5px;
+    border-radius: 5px;
+    display: flex;
+    height: 200px;
+    margin: 0.5rem 0.25rem;
+    padding: 1rem;
+}
+
+.animals__image{
+    border-radius: 100%;
+    margin: 1rem;
+    width: 160px;
+}
+
+.animals__texts{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.animals__type{
+    color: var(--preto);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+}
+
+.animals__type:hover{
+    color: var(--amarelo-principal);
+    text-decoration: underline;
+}
+
+.animals__caption{
+    color: var(--letra-conteudo);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.brands{
+    width: 30%;
+}
+
+.brands__title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.brands__content{
+    align-items: center;
+    border: solid var(--preto) 2px;
+    border-radius: 5px;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    margin: 0.5rem 0.25rem;
+    padding: 1rem ;
+}
+
+.brands__content.reverse{
+    flex-direction: row-reverse;
+}
+
+.brands__image{
+    border-radius: 5px;
+    height: 100px;
+}
+
+.brands__name{
+    color: var(--letra-conteudo);
+    font-size: 1.25rem;
+}
+
+.--max-width{
+    width: 1360px;
+}
