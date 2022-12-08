@@ -1,11 +1,5 @@
-:root{
-    --amarelo-banner: #fecb3e;
-    --amarelo-principal: #ffcc00;
-    --branco: whitesmoke;
-    --cinza: #928886 ;
-    --letra-conteudo: #e9e4de;
-    --preto: black;
-}
+@import url(header.css);
+@import url(footer.css);
 
 .main{
     background-color: var(--cinza);    
@@ -103,6 +97,3 @@
     font-size: 1.25rem;
 }
 
-.--max-width{
-    width: 1360px;
-}

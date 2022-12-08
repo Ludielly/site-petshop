@@ -1,3 +1,5 @@
+@import url(variaveis.css);
+
 .header{
     align-items: center;
     background-color: var(--preto);
@@ -12,7 +14,6 @@
     padding: 0.5rem 1rem;
     align-items: center;
     font-family: 'Coda', cursive;
-
 }
 
 .header__image{
@@ -88,4 +89,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.--max-width{
+    width: 1360px;
 }
