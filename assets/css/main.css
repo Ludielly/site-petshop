@@ -1,10 +1,20 @@
 @import url(header.css);
 @import url(footer.css);
 
+.banner{
+    background-color: var(--amarelo-banner);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner__image{
+    height: 300px;
+}
+
 .main{
     background-color: var(--cinza);    
     display: flex;
-    font-family: 'Coda', cursive;
     justify-content: center;
     padding: 1rem;
 }

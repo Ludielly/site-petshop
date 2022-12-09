@@ -3,9 +3,15 @@
 
 :root{
     --amarelo-banner: #fecb3e;
+    --amarelo-banner-promocoes: #ffc929;
     --amarelo-principal: #ffcc00;
     --branco: whitesmoke;
     --cinza: #9D9D9D;
+    --letra-banner: 
     --letra-conteudo: #e9e4de;
     --preto: black;
+}
+
+body{
+    font-family: 'Coda', cursive;
 }
